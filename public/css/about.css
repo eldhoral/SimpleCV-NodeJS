@@ -1,0 +1,160 @@
+*{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Ubuntu';
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+/* auto increment umur */
+.umur{ 
+    font-family:'Ubuntu', sans-serif;
+    margin-left: 5rem;
+}
+
+/* SCROLLBAR */
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 5px;
+  background: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #26A69A; 
+  border-radius: 5px;
+}
+
+/* ABOUT */
+body {
+    overflow: scroll;
+    background: linear-gradient(180deg, rgba(255,255,255,0) 
+        15%, rgba(255,255,255) 100%), url(../assets/backgroundlogo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+
+#about{
+    width: 100%;
+    height: 100vh;
+    padding-bottom: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.profile{
+    width: 95vh;
+    height: 95vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+ .profile h1{
+    font-family: 'Ubuntu';
+    font-weight: bolder;
+    padding:0px 0px 0px 0px;
+    font-size: 30px;
+    z-index: 10;
+    font-size: 68px;
+    margin-top: 5rem;
+    
+}
+.profile h3 {
+    padding-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+}
+.profile h6 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+}
+.profile p{
+    display: inline-block;
+    padding: 5px 0px 10px 0px;
+    width: 540px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 12px;
+    /* padding-bottom: 50px; */
+    text-align: justify;
+}
+.profile img{
+    width: 300px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin-top: 3rem;
+    z-index: 0;
+    box-shadow: 3px 2px 4px black;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+.profile img:hover{
+    animation: rotate 8s;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+}
+.profile a, button{ 
+    padding: 7px;
+    margin: 10px;
+    border-radius: 2em;
+    background: transparent;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+
+    letter-spacing: 5px;
+    font-size: 15px;
+    font-weight: 900;
+    text-shadow: rgb(209, 201, 201) 2px 2px 2px;
+    color: #d16644;
+}
+
+.slogan{ 
+    font-family:'Ubuntu', sans-serif;
+    margin-left: 3rem;
+    text-align: center;
+}
+
+
+footer{
+    width: 100%;
+    padding: 20px 0px;
+    background-color: #f1dfdbef; 
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px
+}
+.copyright{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px 0px;
+    font-size: 10px;
+    text-align: center;
+    font-style: italic;
+}
+

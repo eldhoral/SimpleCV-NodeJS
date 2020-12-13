@@ -1,0 +1,138 @@
+*{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Ubuntu';
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+/* HOME */
+body {
+    overflow: scroll;
+    background: linear-gradient(180deg, rgba(255,255,255,0) 
+        15%, rgba(255,255,255) 100%), url(../assets/backgroundlogo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 5px;
+  background: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #26A69A; 
+  border-radius: 5px;
+}
+
+/*.header {
+    width: 5rem;
+    height: 100vh;
+    position: fixed;
+    background-color : var(--bg-primary);
+}*/
+
+#home{
+    width: 100%;
+    height: 100vh;
+    padding-bottom: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    padding: 1rem;
+    
+}
+
+.landing{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+#landing-effect{
+    font-family: 'Ubuntu';
+    font-weight: bolder;
+}
+.title{ 
+    font-family: 'Ubuntu'; font-weight: bolder;
+}
+.slogan{ 
+    font-family:'Ubuntu', sans-serif;
+    margin-left: 5rem;
+}
+
+.copyright {
+    font-family:'Ubuntu', sans-serif;
+    margin-left: 5rem;
+}
+
+.landing h1{ 
+    font-size: 65px; padding:20px;
+}
+.landing h2{ 
+    position: fix; 
+    font-size: 35px; 
+    padding:20 auto; 
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+.landing h3{ 
+    font-size: 35px; 
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 4px;
+    font-weight: 800;
+    padding: 0px 20px;
+    color: #1E88E5;
+    text-transform: uppercase;
+    border-radius: 2em;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+.landing p, .landing p b {
+    display: inline-block;
+    padding: 10px;
+    width: 600px;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+    padding: 20px 0px;
+    background-color: #f1dfdbef; 
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px
+}
+.copyright{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px 0px;
+    font-size: 10px;
+    text-align: center;
+    font-style: italic;
+}
